@@ -39,7 +39,7 @@ function mapToSquare(sArray){
 function reduceToTotal(sArray, startingPoint= 0){
  let total = startingPoint
   for (const num of sArray){
-    total = total + sum
+    total = total + num
   }
   return  total
 }
