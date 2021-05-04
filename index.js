@@ -43,3 +43,11 @@ function reduceToTotal(sArray, startingPoint= 0){
   }
   return  total
 }
+
+function reduceToAllTrue(sArray){
+ let total 
+  for (const num of sArray){
+    total = total + num
+  }
+  return  total
+}
