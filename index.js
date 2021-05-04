@@ -36,7 +36,7 @@ function mapToSquare(sArray){
   return newA
 }
 
-function reduceToTotal(sArray, startingPoint){
+function reduceToTotal(sArray, startingPoint= 0){
  let total = startingPoint
   for (const num of sArray){
     total = total + sum
