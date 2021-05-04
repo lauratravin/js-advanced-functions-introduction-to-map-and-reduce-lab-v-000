@@ -35,3 +35,11 @@ function mapToSquare(sArray){
    }
   return newA
 }
+
+function reduceToTotal(sArray, startingPoint){
+ let total = startingPoint
+  for (const num of sArray){
+    total = total + sum
+  }
+  return  total
+}
