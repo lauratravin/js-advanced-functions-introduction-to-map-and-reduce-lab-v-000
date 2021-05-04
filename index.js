@@ -45,9 +45,11 @@ function reduceToTotal(sArray, startingPoint= 0){
 }
 
 function reduceToAllTrue(sArray){
- let total 
-  for (const num of sArray){
-    total = total + num
+ let resp = true
+  for (const value of sArray){
+    if (value === false){
+      resp =  false
+    }
   }
-  return  total
+  return  resp
 }
