@@ -11,3 +11,11 @@ function mapToNegativize(sArray){
 
   return newA
 }
+
+function mapToNoChange(sArray){
+   const newA=[]
+   for (const num of sArray){
+     newA.push(num)
+   }
+  return newA
+}
