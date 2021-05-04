@@ -53,3 +53,13 @@ function reduceToAllTrue(sArray){
   }
   return  resp
 }
+
+function  reduceToAnyTrue(sArray){
+  let  resp = false
+   for (const value of sArray){
+     if (value === true){
+       resp =  true
+     }
+   }
+   return  resp
+}
