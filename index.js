@@ -19,3 +19,19 @@ function mapToNoChange(sArray){
    }
   return newA
 }
+
+function mapToDouble(sArray){
+   const newA=[]
+   for (const num of sArray){
+     newA.push(num * 2)
+   }
+  return newA
+}
+
+function mapToSquare(sArray){
+   const newA=[]
+   for (const num of sArray){
+     newA.push(num ** 2)
+   }
+  return newA
+}
